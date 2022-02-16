@@ -118,6 +118,6 @@ Another test was done to see if we could control the WiFi plug from the Raspberr
 the TP-link HS100 WiFi smart plug. This was to ensure that both the WiFi plug and Raspberry Pi were connected to the same network. After these tests succeeded, it was time to test the Python script to ensure it was working as intended.
 
 ### Distributions of Tasks
-* [Amiel](): Design, Implementation, and README
-* [Jeremy](): Design and README/Documentation
-* Kenny: Testing
+* [Amiel Nava](https://github.com/AmielCyber): Design, Implementation, and README
+* [Jeremy Epinosa](https://github.com/Heremy): Design and README/Documentation
+* [Kenny](https://github.com/kennydn99): Testing and Implementation
