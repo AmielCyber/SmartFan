@@ -80,7 +80,7 @@ that occurred for this project.
 
 ### Summary 
 We created a program automatically turns on and off a typical fan based on the temperature.  
-The fan is connected to a wifi enabled plug which is controlled by a Raspberry Pi.  
+The fan is connected to a WiFi enabled plug which is controlled by a Raspberry Pi.  
 The Raspberry Pi has a temperature sensor connected to the board and will automatically turn on the fan when a certain 
 temperature is reached.  When the temperature drops below a certain temperature, the fan is turned off by the 
 Raspberry Pi.  The temperature limit that turns on the fan is entered by the user.
@@ -92,12 +92,10 @@ Above is a high level overview of our design of the automatic fan.
 The Raspberry Pi is what connects all of our components together and allows them to work with each other.
 The temperature sensor we used connects directly to the Raspberry Pi and allows for easy access to temperature data we 
 need. Next, we needed our Raspberry Pi to be able to turn the fan on and off.  
-To accomplish this, we used a wifi enabled plug to connect the fan to an outlet.  
-The Raspberry Pi is able to communicate with the plug via wifi as long as they are on the same network.  
+To accomplish this, we used a WiFi enabled plug to connect the fan to an outlet.  
+The Raspberry Pi is able to communicate with the plug via WiFi as long as they are on the same network.  
 We decided to use ssh via terminal in order to send and receive data from the Raspberry Pi and this terminal window 
 acted as our display.
-
-![sshTerminal](/images/terminal.png)
 
 ### Implementation
 In the process of implementing our Automated Smart Fan, we needed to accomplish several tasks:
