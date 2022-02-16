@@ -59,7 +59,8 @@ command in the terminal:
 Instead of having to directly connect to your Raspberry Pi, you could remote connect and run the script with
 your personal computer. Just make sure you look up what is the address of your Raspberry Pi.
 
-![sshTerminal](/images/terminal.png)
+![sshExampleScreenShot](/images/sshExample.png)
+
 
 For more Raspberry Pi Remote access click [here](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
@@ -95,7 +96,8 @@ To accomplish this, we used a wifi enabled plug to connect the fan to an outlet.
 The Raspberry Pi is able to communicate with the plug via wifi as long as they are on the same network.  
 We decided to use ssh via terminal in order to send and receive data from the Raspberry Pi and this terminal window 
 acted as our display.
-![sshExampleScreenShot](/images/sshExample.png)
+
+![sshTerminal](/images/terminal.png)
 
 ### Implementation
 In the process of implementing our Automated Smart Fan, we needed to accomplish several tasks:
