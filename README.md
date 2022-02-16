@@ -59,10 +59,11 @@ command in the terminal:
 Instead of having to directly connect to your Raspberry Pi, you could remote connect and run the script with
 your personal computer. Just make sure you look up what is the address of your Raspberry Pi.
 
+For more Raspberry Pi Remote access click [here](https://www.raspberrypi.com/documentation/computers/remote-access.html)
+
 ![sshExampleScreenShot](/images/sshExample.png)
 
 
-For more Raspberry Pi Remote access click [here](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
 ### Ending the Program
 To stop the program we simply need to use a keyboard interrupt which is `ctrl + c`
@@ -120,4 +121,15 @@ the TP-link HS100 WiFi smart plug. This was to ensure that both the WiFi plug an
 ### Distributions of Tasks
 * [Amiel Nava](https://github.com/AmielCyber): Design, Implementation, and README
 * [Jeremy Epinosa](https://github.com/Heremy): Design and README/Documentation
-* [Kenny](https://github.com/kennydn99): Testing and Implementation
+* [Kenny Nguyen](https://github.com/kennydn99): Testing and Implementation
+
+### Presentation
+[PowerPoint](https://sdsuedu-my.sharepoint.com/:p:/g/personal/anavaestrada0616_sdsu_edu/ERKi39_RYiZKnm6AUvxMrmABWbPsMZmKsm4hvtx4Jfkr2A?e=7qy4wa)
+
+## Sources
+* DHT setup guide
+    * https://learn.adafruit.com/dht/dht-circuitpython-code
+* Kasa setup guide
+    * https://github.com/python-kasa/python-kasa
+* Raspberry Pi Remote access guide
+    * https://www.raspberrypi.com/documentation/computers/remote-access.html
