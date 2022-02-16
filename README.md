@@ -7,14 +7,18 @@ temperature of the current environment.
 ## Pictures
 
 ## Set Up
-
 ### Hardware Requirements
-![HardwarePicture]()
+![HardwarePicture](/images/hardware.png)
+
 * Raspberry Pi 
 * DHT11/DHT22 Temperature Sensor
     * Note, you must have the DHT output pin in PIN 4 in the Raspberry Pi board
+
+![raspberrypiWithTemp](/images/raspbSetup.png)
 * TP-Link Smart Plug that is compatible with [python-kasa](https://github.com/python-kasa/python-kasa#supported-devices)
     * If you use a TP-Link Smart Plug that is not in the link above, you may have some features missing
+
+![smart_plug](/images/smartPlug.png)
 
 ### Dependencies
 * DHT11/DHT22 Temperature Sensor [driver](https://github.com/adafruit/Adafruit_CircuitPython_DHT)
@@ -54,7 +58,8 @@ command in the terminal:
 #### SSH Raspberry Pi Example
 Instead of having to directly connect to your Raspberry Pi, you could remote connect and run the script with
 your personal computer. Just make sure you look up what is the address of your Raspberry Pi.
-![sshExampleScreenShot]()
+
+![sshTerminal](/images/terminal.png)
 
 For more Raspberry Pi Remote access click [here](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
@@ -80,7 +85,8 @@ temperature is reached.  When the temperature drops below a certain temperature,
 Raspberry Pi.  The temperature limit that turns on the fan is entered by the user.
 
 ### Design
-![Communication Design]()
+![Communication Design](/images/inputOutput.png)
+
 Above is a high level overview of our design of the automatic fan.  
 The Raspberry Pi is what connects all of our components together and allows them to work with each other.
 The temperature sensor we used connects directly to the Raspberry Pi and allows for easy access to temperature data we 
@@ -89,7 +95,7 @@ To accomplish this, we used a wifi enabled plug to connect the fan to an outlet.
 The Raspberry Pi is able to communicate with the plug via wifi as long as they are on the same network.  
 We decided to use ssh via terminal in order to send and receive data from the Raspberry Pi and this terminal window 
 acted as our display.
-![SSHscreenshot]()
+![sshExampleScreenShot](/images/sshExample.png)
 
 ### Implementation
 In the process of implementing our Automated Smart Fan, we needed to accomplish several tasks:
