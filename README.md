@@ -4,8 +4,6 @@
 A program that turns any normal fan into a smart fan which automatically turns on/off based on the 
 temperature of the current environment. 
 
-## Pictures
-
 ## Set Up
 ### Hardware Requirements
 ![HardwarePicture](/images/hardware.png)
